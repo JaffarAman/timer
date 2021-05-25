@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            min-height: 100%;
+            background-image: linear-gradient(320deg,#0f0c29 , #302b63 , #24243e);
+        }
+        div{
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+        div button {
+            width: 180px;
+            height: 50px;
+            border-radius: 8px;
+            border: 2px solid black;
+            margin: 20px 0;
+            background: none;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: monospace;
+            
+        }
+        div button:hover{
+            background-color:#0f0c29 ;
+            transition: all 0.4s ease;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <button onclick="pageChange()">TIMER</button>
+        <a href="https://stop-watch2.web.app/">
+        
+            <button onclick="pageChange()">Stop Watch</button>
+        </a>
+    </div>
+
+    
+</body>
+<script src="app.js"></script>
+</html>

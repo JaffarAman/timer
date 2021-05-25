@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Timer</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+        <Section class="mainBox">
+                <div class="header">
+                       <h1>TIMER</h1> 
+                </div>
+                <div class="digits">
+                        <div>
+                                <input id="min" onchange="getValue()" type="text" value="00">
+                                <p>Min</p>
+                        </div>
+                        <div>
+
+                                <input id="sec" onchange="getValue()" type="text" value="00">
+                                <p>Sec</p>
+
+                        </div>
+                        <div>
+                                <input id="msec" type="text" value="00" disabled>
+                                <p>MiliSec</p>
+
+                        </div>
+
+                </div>
+
+                <div class="btns">
+                        <button onclick="start()" id="startbtn">Start</button>
+                        <button onclick="pause()">Pause</button>
+                        <button onclick="resett()">Reset</button>
+                </div>
+
+
+        </Section>
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
